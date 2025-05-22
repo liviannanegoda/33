@@ -7,9 +7,9 @@ public class App
     public static void main( String[] args )
     {
         System.out.println( "Hello World!" );
-        Person person1 = new Person("Nikita", "Lyskov", 26);
-        Person person2 = new Person("Nikita", "Lyskov", 26);
-        Person person3 = new Person("Dima", "Petrov", 22);
+        Person person1 = new Person("Sofia", "Lebedeva", 21);
+        Person person2 = new Person("Sofia", "Lebedeva", 21);
+        Person person3 = new Person("Ira", "Ostapova", 29);
 
         System.out.println(person1.equals(person2));
         System.out.println(person1.equals(person3));
